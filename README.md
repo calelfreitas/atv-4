@@ -62,7 +62,7 @@ int main(){
     // Obtenha os valores dos membros da classe e mostra eles
     int valor1 = getPtr1();
     int valor2 = getPtr2();
-    printf("\n ptr1: %d \n ptr2: %d\n", valor1, valor2);
+    printf("\n ponteiro1: %d \n ponteiro2: %d\n", valor1, valor2);
 
     // Desalocar a memória para os membros da classe
     deslocarMemoria();
