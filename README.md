@@ -18,7 +18,7 @@ void deslocarMemoria(){
     free(ptr2);
 }
 
-// Função equivalente a allocateHist
+// Função equivalente a alocarHist
 void alocarHist(){
     //lógica para alocarHist()
     printf("Método alocarHist chamado.\n");
