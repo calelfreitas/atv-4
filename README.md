@@ -1,4 +1,4 @@
-# atv-4
+#atv 4
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -30,8 +30,8 @@ void registrarRegInHist(){
     printf("Método registrarRegInHist chamado.\n");
 }
 // Set para ptr1
-void setPtr1(int value){
-    *ptr1 = value;
+void setPtr1(int valor){
+    *ptr1 = valor;
 }
 
 // Get para ptr1
@@ -66,6 +66,4 @@ int main(){
 
     // Desalocar a memória para os membros da classe
     deslocarMemoria();
-
-    return 0;
 }
